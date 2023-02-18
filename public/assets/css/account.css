@@ -1,0 +1,1129 @@
+@media only screen and (max-width: 600px) {
+    body {
+        
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin: 0;
+        background-color: rgb(155, 202, 255);
+    }
+
+    .mobile {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-color: rgb(8, 8, 70);
+        width: 100%;
+        height: 60px;
+        justify-content: space-between;
+        padding: 20px 0;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+    }
+
+    .left-section {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-left: 30px;
+    }
+
+    .logo {
+        width: 40px;
+        border-radius: 25px;
+        margin-right: 30px;
+        margin-left: 10px;
+        cursor: pointer;
+    }
+
+    .menu-image {
+        width: 30px;
+        cursor: pointer;
+    }
+
+    .right-section {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-right: 10px;
+    }
+
+    .sign-out-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        transition: 0.4s;
+        cursor: pointer;
+        background-color: rgb(8, 8, 70);
+        padding: 7px 10px;
+        border-radius: 20px;
+    }
+
+    .sign-out-image {
+        width: 22px;
+        color: white;
+        margin-right: 10px;
+    }
+
+    .sign-out-container a {
+        color: white;
+        font-size: 15px;
+        text-decoration: none;
+    }
+
+    .sign-out-container:hover {
+        background-color: rgb(12, 12, 121);
+    }
+
+    .sign-out-container-content {
+        display: flex;
+        flex-direction: row;
+        
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sidebar {
+        display:  none;
+        background-color: rgb(8, 8, 70);
+        position: fixed;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        width: 210px;
+        margin-top: 100px;
+        flex-direction: column;
+    }
+
+    .profile-pics-container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        align-items: center;
+        margin: 40px 0;
+
+    }
+
+    .logo1 {
+        width: 40px;
+        border-radius: 25px;
+        cursor: pointer;
+    }
+
+    .profile-pics-container p {
+        margin: 0;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        color: rgb(235, 226, 70);
+    }
+
+    .links-container {
+        margin-left: 25px;
+    }
+
+    .links-container-content {
+        display: flex;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+    .links-container-content1 {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        
+    }
+
+    .links-container-content:hover {
+        color: white;
+    }
+
+    .svg-image {
+        width: 20px;
+        margin-right: 10px;
+        color: lightblue;
+        transition: 0.4s;
+        cursor: pointer;
+    }
+
+
+    .links-container div a {
+        color: lightblue;
+        text-decoration: none;
+        transition: 0.4s;
+        font-size: 14px;
+    }
+
+    .links-container div a:hover {
+        color: white;
+    }
+
+    .linksss {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .linksss1 ul li{
+        list-style-type: none;
+        display: none;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+
+
+    .my-account {
+        display: flex;
+        align-items: center;
+    }
+
+    .svg-image1 {
+        width: 20px;
+        margin-left: 40px;
+        color: lightblue;
+        transition: 0.4s;
+        cursor: pointer;
+    }
+
+    .user-name-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(8, 8, 70);
+        height: 60px;
+        width: 320px;
+        margin-top: 120px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 50px;
+        box-shadow: 4px 6px rgba(0, 0, 0, .3);
+    }
+
+    .user-name-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 40px;
+        width: 300px;
+        color: white;
+    }
+
+    .user-name-content p {
+        font-size: 1.3rem;
+    }
+
+    .user-name-container1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(180, 180, 180);
+        padding: 30px 0;
+        width: 320px;
+        margin-top: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 4px 6px rgba(0, 0, 0, .3);
+        border-radius: 40px;
+    }
+
+    .user-name-content1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 40px;
+        width: 300px;
+        color: white;
+    }
+
+    .user-name-content1 p {
+        text-align: center;
+        line-height: 40px;
+        font-size: 1.2rem;
+        margin: 0;
+        margin-bottom: 10px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: black;
+    }
+
+    .user-name-content1 span {
+        font-size: 1.3rem;
+        background-color: rgb(238, 237, 223);
+        padding: 7px 10px;
+        color: black;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        border-radius: 10px;
+        margin-left: 10px;
+    }
+
+    .affiliate-link-section {
+        display: flex;
+        width: 300px;
+        height: 170px;
+        flex-direction: column;
+        background-color: rgb(8, 8, 70);
+        margin: auto;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        justify-content: center;
+        padding: 8px 20px;
+        box-shadow: 4px 6px rgba(0, 0, 0, .3);
+        
+    }
+
+    .link-container {
+        display: flex;
+        flex-direction: row;
+        width: 280px;
+        height: 70px;
+        background-color: white;
+        align-items: center;
+    }
+
+    .link-container a {
+        display: flex;
+        align-items: center;
+        font-size: smaller;
+        text-decoration: none;
+        color: grey;
+        padding-right: 5px;
+    }
+
+    
+
+    .dommy-link  {
+       margin: 10px;
+       color: white;
+    }
+
+    .affiliate-link-section p {
+        display: flex;
+        margin-left: 10px;
+        font-size: 14px;
+        margin-right: 40px;
+    }
+
+    .link-container svg {
+        width: 25px;
+        margin-right: 10px;
+    }
+    
+    /* profile picture styles section */
+
+    .profile-container {
+        width: 450px;
+        height: 150vh;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        
+    }
+
+    .my-profile {
+        margin: 0;
+        text-align: center;
+        font-size: 80px;
+        font-weight: 800;
+        opacity: 0.1;
+        display: none;
+    }
+
+    .profile-pics-container {
+        margin-bottom: 10px;
+        margin-top: 130px;
+    }
+
+    .profile-pics {
+        width: 200px;
+        border-radius: 100px;
+    }
+
+    .profile-pics-file-container {
+        width: 350px;
+        padding: 10px 0;
+        margin-left: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+
+    .file {
+        margin-left: 20px;
+        cursor: pointer;
+        color: black;
+        background-color: white;
+        margin-left: 20px;
+        border-radius: 10px;
+        
+    }
+
+    ::-webkit-file-upload-button {
+        background: lightgray;
+        color: black;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 10px 0 0 10px;
+        cursor: pointer;
+    }
+
+    .upload-btn {
+        margin-top: 6px;
+        background-color: blue;
+        padding: 7px 10px;
+        text-decoration: none;
+        color: white;
+        border-radius: 10px;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+    }
+
+    .upload-btn svg {
+        width: 25px;
+        margin-right: 10px;
+    }
+
+    .form {
+        background-color: rgb(238, 238, 238);
+        width: 350px;
+        height: 300px;
+        padding: 25px 30px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .form1 {
+        display: none;
+    }
+
+    .form p {
+        font-size: 30px;
+        display: flex;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: 800;
+        color: rgb(8, 8, 70);
+    }
+
+    .form input {
+        border: none;
+        padding: 10px 0;
+        border-bottom: 1px solid black;
+        background-color: lightgrey;
+        transition: 0.5s;
+        font-size: 14px;
+    }
+
+    .form input:focus {
+        outline: 0;
+    }
+
+    .form input::placeholder {
+        color: black;
+        padding-left: 5px;
+        font-size: 14px;
+    }
+
+    .save-changes-btn {
+        text-decoration: none;
+        background-color: red;
+        text-align: center;
+        padding: 10px;
+        border-radius: 20px;
+        color: white;
+    }
+
+    .form-container {
+        display: flex;
+        margin-top: 70px;
+        flex-direction: column;
+        width: 300px;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+
+    .form2 {
+        background-color: rgb(238, 238, 238);
+        width: 350px;
+        height: 350px;
+        padding: 25px 30px;
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+
+    .form1 {
+        display: none;
+    }
+
+    .form2 p {
+        font-size: 30px;
+        display: flex;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: 800;
+        color: rgb(8, 8, 70);
+    }
+
+    .form2 input {
+        border: none;
+        padding: 10px 0;
+        border-bottom: 1px solid black;
+        background-color: lightgrey;
+        transition: 0.5s;
+        font-size: 14px;
+    }
+
+    .form2 input:focus {
+        outline: 0;
+    }
+
+    .form2 input::placeholder {
+        color: black;
+        padding-left: 5px;
+        font-size: 14px;
+    }
+
+    .kyc-container1 {
+        width: 350px;
+        height: 500px;
+        background-color: lightgray;
+        padding: 20px 30px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .kyc-container1 p {
+        margin: 0;
+    }
+
+    .kyc-container1 select option {
+        margin: 0;
+        height: 80px;
+    }
+
+    .kyc-container1 select {
+        display: flex;
+        flex-direction: row;
+        background-color: rgb(8, 8, 70);
+        color: white;
+        height: 40px;
+        align-items: center;
+        justify-content: center;
+        font-size: 16px;
+        text-align: center;
+        outline: 0;
+        padding: 0 10px;
+        margin-bottom: 20px;
+    }
+
+    .kyc-container1 p {
+        font-size: 40px;
+        font-weight: 800;
+        margin-bottom: 15px;
+        color: rgb(8, 8, 70);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .kyc-container1 label {
+        font-size: 25px;
+        font-weight: 600;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .upload-btn1 {
+        margin-top: 6px;
+        width: 100px;
+        background-color: red;
+        padding: 7px 10px;
+        text-decoration: none;
+        color: white;
+        border-radius: 10px;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .upload-btn1 svg {
+        width: 25px;
+        margin-right: 10px;
+    }
+
+    .kyc-container2 {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 602px) {
+    body {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin: 0;
+        background-color: rgb(155, 202, 255);
+    }
+
+    .mobile {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-color: rgb(8, 8, 70);
+        width: 100%;
+        height: 60px;
+        justify-content: space-between;
+        padding: 20px 0;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+    }
+
+    .left-section {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-left: 30px;
+    }
+
+    .logo {
+        width: 40px;
+        border-radius: 25px;
+        margin-right: 30px;
+        margin-left: 10px;
+        cursor: pointer;
+    }
+
+    .menu-image {
+        width: 30px;
+        cursor: pointer;
+        display: none;
+    }
+
+    .right-section {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-right: 10px;
+    }
+
+    .sign-out-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        transition: 0.4s;
+        cursor: pointer;
+        background-color: rgb(8, 8, 70);
+        padding: 7px 10px;
+        border-radius: 20px;
+    }
+
+    .sign-out-image {
+        width: 22px;
+        color: white;
+        margin-right: 10px;
+    }
+
+    .sign-out-container a {
+        color: white;
+        font-size: 15px;
+        text-decoration: none;
+    }
+
+    .sign-out-container:hover {
+        background-color: rgb(12, 12, 121);
+    }
+
+    .sign-out-container-content {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sidebar {
+        display:  flex;
+        background-color: rgb(8, 8, 70);
+        position: fixed;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        width: 210px;
+        margin-top: 100px;
+        flex-direction: column;
+    }
+
+    .profile-pics-container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        align-items: center;
+        margin: 40px 0;
+
+    }
+
+    .logo1 {
+        width: 40px;
+        border-radius: 25px;
+        cursor: pointer;
+    }
+
+    .profile-pics-container p {
+        margin: 0;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        color: rgb(235, 226, 70);
+    }
+
+    .links-container {
+        margin-left: 25px;
+    }
+
+    .links-container-content {
+        display: flex;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+    .links-container-content1 {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        
+    }
+
+    .links-container-content:hover {
+        color: white;
+    }
+
+    .svg-image {
+        width: 20px;
+        margin-right: 10px;
+        color: lightblue;
+        transition: 0.4s;
+        cursor: pointer;
+    }
+
+
+    .links-container div a {
+        color: lightblue;
+        text-decoration: none;
+        transition: 0.4s;
+        font-size: 14px;
+    }
+
+    .links-container div a:hover {
+        color: white;
+    }
+
+    .linksss {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .linksss1 ul li{
+        list-style-type: none;
+        display: none;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+
+
+    .my-account {
+        display: flex;
+        align-items: center;
+    }
+
+    .svg-image1 {
+        width: 20px;
+        margin-left: 40px;
+        color: lightblue;
+        transition: 0.4s;
+        cursor: pointer;
+    }
+
+    .user-name-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(8, 8, 70);
+        height: 60px;
+        width: 400px;
+        margin-top: 120px;
+        margin-left: 270px;
+        margin-right: auto;
+        border-radius: 50px;
+        box-shadow: 4px 6px rgba(0, 0, 0, .3);
+    }
+
+    .user-name-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 40px;
+        width: 300px;
+        color: white;
+    }
+
+    .user-name-content p {
+        font-size: 1.3rem;
+    }
+
+    .user-name-container1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(180, 180, 180);
+        padding: 30px 0;
+        width: 400px;
+        margin-top: 40px;
+        margin-left: 270px;
+        margin-right: auto;
+        box-shadow: 4px 6px rgba(0, 0, 0, .3);
+        border-radius: 40px;
+    }
+
+    .user-name-content1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 40px;
+        width: 300px;
+        color: white;
+    }
+
+    .user-name-content1 p {
+        text-align: center;
+        line-height: 40px;
+        font-size: 1.2rem;
+        margin: 0;
+        margin-bottom: 10px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: black;
+    }
+
+    .user-name-content1 span {
+        font-size: 1.3rem;
+        background-color: rgb(238, 237, 223);
+        padding: 7px 10px;
+        color: black;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        border-radius: 10px;
+        margin-left: 10px;
+    }
+
+    .affiliate-link-section {
+        display: flex;
+        width: 450px;
+        height: 170px;
+        flex-direction: column;
+        background-color: rgb(8, 8, 70);
+        margin-right: auto;
+        margin-left: 270px;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        justify-content: center;
+        padding: 8px 0;
+        box-shadow: 4px 6px rgba(0, 0, 0, .3);
+        
+    }
+
+    .link-container {
+        display: flex;
+        flex-direction: row;
+        width: 400px;
+        height: 70px;
+        background-color: white;
+        margin-left: 20px;
+        align-items: center;
+    }
+
+    .link-container a {
+        display: flex;
+        align-items: center;
+        font-size: smaller;
+        text-decoration: none;
+        color: grey;
+        padding-right: 5px;
+    }
+
+    
+
+    .dommy-link  {
+       margin: 10px;
+       color: white;
+    }
+
+    .affiliate-link-section p {
+        display: flex;
+        margin-left: 20px;
+        font-size: 14px;
+        margin-right: 40px;
+    }
+
+    .link-container svg {
+        width: 25px;
+        margin-right: 10px;
+    }
+    
+    /* profile picture styles section */
+
+    .profile-container {
+        width: 450px;
+        height: 150vh;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        
+    }
+
+    .my-profile {
+        margin: 0;
+        text-align: center;
+        font-size: 80px;
+        font-weight: 800;
+        opacity: 0.1;
+        display: none;
+    }
+
+    .profile-pics-container {
+        margin-bottom: 10px;
+        margin-top: 50px;
+    }
+
+    .profile-pics {
+        width: 200px;
+        border-radius: 100px;
+        margin-top: 100px;
+    }
+
+    .profile-pics-file-container {
+        width: 350px;
+        padding: 10px 0;
+        margin-left: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+
+    .file {
+        margin-left: 20px;
+        cursor: pointer;
+        color: black;
+        background-color: white;
+        margin-left: 20px;
+        border-radius: 10px;
+        
+    }
+
+    ::-webkit-file-upload-button {
+        background: lightgray;
+        color: black;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 10px 0 0 10px;
+        cursor: pointer;
+    }
+
+    .upload-btn {
+        margin-top: 6px;
+        background-color: blue;
+        padding: 7px 10px;
+        text-decoration: none;
+        color: white;
+        border-radius: 10px;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+    }
+
+    .upload-btn svg {
+        width: 25px;
+        margin-right: 10px;
+    }
+
+    .form {
+        background-color: rgb(238, 238, 238);
+        width: 350px;
+        height: 300px;
+        padding: 25px 30px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 80px;
+    }
+
+    .form1 {
+        display: none;
+    }
+
+    .form p {
+        font-size: 30px;
+        display: flex;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: 800;
+        color: rgb(8, 8, 70);
+    }
+
+    .form input {
+        border: none;
+        padding: 10px 0;
+        border-bottom: 1px solid black;
+        background-color: lightgrey;
+        transition: 0.5s;
+        font-size: 14px;
+    }
+
+    .form input:focus {
+        outline: 0;
+    }
+
+    .form input::placeholder {
+        color: black;
+        padding-left: 5px;
+        font-size: 14px;
+    }
+
+    .save-changes-btn {
+        text-decoration: none;
+        background-color: red;
+        text-align: center;
+        padding: 10px;
+        border-radius: 20px;
+        color: white;
+    }
+
+    .form-container {
+        display: flex;
+        margin-top: 70px;
+        flex-direction: column;
+        width: 300px;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+
+    .form2 {
+        background-color: rgb(238, 238, 238);
+        width: 350px;
+        height: 350px;
+        padding: 25px 30px;
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 40px;
+        margin-left: 100px;
+    }
+
+    .form1 {
+        display: none;
+    }
+
+    .form2 p {
+        font-size: 30px;
+        display: flex;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: 800;
+        color: rgb(8, 8, 70);
+    }
+
+    .form2 input {
+        border: none;
+        padding: 10px 0;
+        border-bottom: 1px solid black;
+        background-color: lightgrey;
+        transition: 0.5s;
+        font-size: 14px;
+    }
+
+    .form2 input:focus {
+        outline: 0;
+    }
+
+    .form2 input::placeholder {
+        color: black;
+        padding-left: 5px;
+        font-size: 14px;
+    }
+
+    .kyc-container1 {
+        width: 350px;
+        height: 500px;
+        background-color: lightgray;
+        padding: 20px 30px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        margin-left: 70px;
+    }
+
+    .kyc-container1 p {
+        margin: 0;
+    }
+
+    .kyc-container1 select option {
+        margin: 0;
+        height: 80px;
+    }
+
+    .kyc-container1 select {
+        display: flex;
+        flex-direction: row;
+        background-color: rgb(8, 8, 70);
+        color: white;
+        height: 40px;
+        align-items: center;
+        justify-content: center;
+        font-size: 16px;
+        text-align: center;
+        outline: 0;
+        padding: 0 10px;
+        margin-bottom: 20px;
+    }
+
+    .kyc-container1 p {
+        font-size: 40px;
+        font-weight: 800;
+        margin-bottom: 15px;
+        color: rgb(8, 8, 70);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .kyc-container1 label {
+        font-size: 25px;
+        font-weight: 600;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .upload-btn1 {
+        margin-top: 6px;
+        width: 100px;
+        background-color: red;
+        padding: 7px 10px;
+        text-decoration: none;
+        color: white;
+        border-radius: 10px;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .upload-btn1 svg {
+        width: 25px;
+        margin-right: 10px;
+    }
+
+    .kyc-container2 {
+        display: none;
+    }
+}
+
